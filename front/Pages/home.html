@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/home.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="modal fade" id="modal-filmes">
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-hero">
+          <img src="https://i.ibb.co/sCS2sZL/incone-Vikings.webp" class="logo-modal" width="100%">
+          <div class="col-12 modal-hero-infos">
+            <button class="btn btn-lg btn-custom-white">
+              <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px"> Assistir
+            </button>
+            <a href="#" class="btn-custom-round btn btn-lg btn-light rounded-circle">
+              <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+            </a>
+            <a href="#" class="btn-custom-round border-white btn btn-lg rounded-circle opacity-50">
+              <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+            </a>
+            <a href="#" class="btn-custom-round border-white btn btn-lg rounded-circle opacity-50">
+              <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+            </a>
+          </div>
+        </div>
+        <div class="modal-info">
+          <div class="row">
+            <div class="col-7">
+              <p class="filme-descricao">
+                Considerando-se descendente de Odin, Ragnar busca dominar vários territórios da Europa. Com isso, ele enfrenta a oposição do Earl Haraldson, um ex-guerreiro e agora líder de seu povo, casado com Siggy, uma jovem que tem sua lealdade dividida.
+              </p>
+            </div>
+            <div class="col-5">
+              <p class="filme-elenco">
+                Elenco: <text> Travis Fimmel, Kaatheryn Winnick, Clive Standen, mais</text>
+                <br />
+                <br />
+                Gêneros: <text>Canadense, Programas sobre Política, Obras de época</text>
+                <br />
+                <br />
+                Cenas e Momentos: <text>Violentos, Empolgantes</text>
+              </p>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-7">
+              <h3 class="text-white">Episódeos</h3>
+            </div>
+            <div class="col-5 text-right">
+              <select class="form-control">
+                <option>Temporada 1</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <ul id="lista-episodeos">
+              <li class="row">
+                <div class="col-1 my-auto text-center">
+                  <h3 class="text-white">1</h3>
+                </div>
+                <div class="col-4">
+                  <img class="img-fluid rounded" src="https://i.ibb.co/B2p0zrP/thumb-Vikings.jpg">
+                </div>
+                <div class="col-7">
+                  <h6 class="text-white">Ritos de Passagem</h6>
+                  <p class="text-muted">
+                    Ragnar Lothbrok está determinado a navegar rumo ao oeste para descobrir novas terras e riquezas apesar das advertências incisivas de Earl Haraldson.
+                  </p>
+                </div>
+              </li>
+              <li class="row">
+                <div class="col-1 my-auto text-center">
+                  <h3 class="text-white">1</h3>
+                </div>
+                <div class="col-4">
+                  <img class="img-fluid rounded" src="https://i.ibb.co/B2p0zrP/thumb-Vikings.jpg">
+                </div>
+                <div class="col-7">
+                  <h6 class="text-white">Ritos de Passagem</h6>
+                  <p class="text-muted">
+                    Ragnar Lothbrok está determinado a navegar rumo ao oeste para descobrir novas terras e riquezas apesar das advertências incisivas de Earl Haraldson.
+                  </p>
+                </div>
+              </li>
+              <li class="row">
+                <div class="col-1 my-auto text-center">
+                  <h3 class="text-white">1</h3>
+                </div>
+                <div class="col-4">
+                  <img class="img-fluid rounded" src="https://i.ibb.co/B2p0zrP/thumb-Vikings.jpg">
+                </div>
+                <div class="col-7">
+                  <h6 class="text-white">Ritos de Passagem</h6>
+                  <p class="text-muted">
+                    Ragnar Lothbrok está determinado a navegar rumo ao oeste para descobrir novas terras e riquezas apesar das advertências incisivas de Earl Haraldson.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="conteiner-fluid">
+    <header class="row">
+      <div class="col-2">
+        <img src="../assets/Netflix-Login.png" width="150px">
+      </div>
+      <div class="col-8">
+        <ul class="menu-list">
+          <li>
+            <a href="home.html">Inicio</a>
+          </li>
+          <li>
+            <a href="serie.html">Séries</a>
+          </li>
+          <li>
+            <a href="recent.html">Mais Recentes</a>
+          </li>
+          <li>
+            <a href="list.html">Minha Lista</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </div>
+
+  <div id="hero" class="conteiner-fluid">
+    <div class="conteiner">
+      <div class="row" id="hero_info">
+        <div class="col-6">
+          <img class="logo" src="https://i.ibb.co/JnJZnhY/logo-bad-boys.webp">
+          <p class="text-white">Chegou a vez de Marcus desfrutar de sua merecida aposentadoria da polícia. Antes, ele só precisa livrar seu parceiro Mike de um perigoso cartel.</p>
+          <br />
+          <button class="btn btn-lg btn-custom-white">
+            <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px"> Assistir
+          </button>
+          <button class="btn btn-lg btn-custom-translicent">
+            <img src="https://i.ibb.co/5c7tv83/info-icon.png" width="25px"> Mais Informações
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <section>
+      <div class="conteiner">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="text-white">Populares Da Ntflix</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <ul class="filme-lista">
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/p49M5tx/thumb-Gente-grande.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme" data-bs-toggle="modal" data-bs-target="#modal-filmes">
+            <img class="img-fluid" src="https://i.ibb.co/B2p0zrP/thumb-Vikings.jpg" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/Fg9h2bT/thumb-bad-boys.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/XLZYy8b/thumb-peaky-blinders.jpg" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/5kftVDz/thumb-The-Witcher.jpg" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/R6bYGyN/thumb-deus-nao-esta-morto.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/LJjpxbg/thumb-deuses-do-egito.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/rbpbHvq/thumb-Livro-Eli.jpg" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="conteiner">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="text-white">Populares Da Ntflix</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <ul class="filme-lista">
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/KVfS9NK/thumb-the-100.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/B4fHZyR/thumb-wandinha.jpg" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/TcCPSmH/thumb-the-last-Kingdom.jpg" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/rQ0NfkF/thumb-As-branquelas.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/cJzMv4K/thumb-la-casa-de-papel.jpg" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/hRbPqTN/suits-thumb.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/CWVNJ8G/thumb-Enola-Holimesjpg.jpg" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="conteiner">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="text-white">Populares Da Ntflix</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <ul class="filme-lista">
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/0VyTWR9/thumb-Arrow.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/LNfkvvP/thumb-Super-Gril.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/TqcHP39/thumb-Dracula.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/0QcdXPM/thumb-Warcraft.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/r02w6vc/thumb-Tropa-de-Elite.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/zHsvY1s/thumb-Corajosos.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <section>
+      <div class="conteiner">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="text-white">Populares Da Ntflix</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <ul class="filme-lista">
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/T41BcKB/thumb-brooklyn-Nine-nine.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/h8HhBch/Thumb-A-mumia.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/2tXCYHz/thumb-Jurassic-word.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/D70RvSm/thumb-gato-de-botas.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/Q9MFWns/thumb-Rango.webp" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/Jc2sNQK/thumb-HP.jpg" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+          <li class="filme">
+            <img class="img-fluid" src="https://i.ibb.co/rbpbHvq/thumb-Livro-Eli.jpg" width="500px">
+            <div class="filme-info">
+              <div class="col-12">
+                <a href="#" class="btn-custom-round btn btn-bkg  rounded-circle">
+                  <img src="https://i.ibb.co/ynZmX0h/play-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/0tSyRGQ/1dislike-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/SQ4TsF1/like-icon.png" width="25px">
+                </a>
+                <a href="#" class="btn-custom-round border-white btn  rounded-circle opacity-50">
+                  <img src="https://i.ibb.co/fM1jpn5/plus-icon.png" width="25px">
+                </a>
+              </div>
+              <p>T3:EP5<text>"Meu Episódeo</text></p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

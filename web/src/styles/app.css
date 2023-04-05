@@ -1,0 +1,94 @@
+/* Geral  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #000;
+}
+
+.bg-body{
+    background-image: url(https://i.ibb.co/GRLmCR3/netflix-catalogo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden ;
+}
+.container-fluid{
+    padding: 50px;
+    background: #000000c2;
+    padding-bottom: 50%;
+}
+.img-Login{
+    width: 20%;
+}
+
+
+#caixa-login{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    justify-content: center;
+    color: white;
+    background-color: #00000091;
+    width: 70vh;
+    padding: 25px;
+    position: absolute;
+    left: 35%;
+}
+form input{
+    background-color: #222020;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    margin: 7px;
+    padding: 15px;
+}
+
+form button{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 7px;
+    padding: 15px;
+    background-color: rgb(182, 27, 27);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.infos{
+    display: flex;
+    color: #706c6c;
+    justify-content: space-between;
+    padding-right: 45px;
+}
+.campo-lembre-se{
+    display: flex;
+    margin-top: 20px;
+    justify-content: left;
+}
+.campo-lembre-se p, a{
+    font-size: 7px;
+    color: #706c6c;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+.campo-lembre-se a{
+    color: white;
+    text-decoration: none;
+}
+.campo-lembre-se input{
+    width: 35px;
+    margin-left: 0px;
+}
+
+form footer{
+    margin-top: 20px;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+footer p{
+    font-size: 10px;
+}
+

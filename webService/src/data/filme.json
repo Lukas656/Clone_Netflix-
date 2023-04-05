@@ -1,0 +1,541 @@
+[
+    {
+        "titulo": "Enola Holmes",
+        "tipo": "serie",
+        "capa": "https://i.ibb.co/qmHvQB2/Enola-Holmes-capa-890x466.jpg",
+        "logo": "https://i.ibb.co/Y7mGmYg/Logo-Enola-Holmes-e1597685769522.jpg",
+        "thumb": "https://i.ibb.co/CWVNJ8G/thumb-Enola-Holimesjpg.jpg",
+        "descricao": "Enola Holmes só tem 16 anos, mas vai fazer de tudo para encontrar a mãe desaparecida, inclusive despistar o irmão Sherlock e ajudar um jovem lorde fugitivo.",
+        "generos": [
+            "Filmes para toda a Familia",
+            "Obras de época",
+            "Filmes baseados em Livros."
+        ],
+        "elenco": [
+            "Millie Bob Brown",
+            "Henry Cavill",
+            "Sam Clafin"
+        ],
+        "cenas_momentos":[
+            "Espírituosos",
+            "Suspense no ar",
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "Tropa de Elite",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/jJmXNDS/Capa-Tropa-de-elite.webp",
+        "logo": "https://i.ibb.co/XWQH5g8/logo-Tropa-de-Elite.webp",
+        "thumb": "https://i.ibb.co/r02w6vc/thumb-Tropa-de-Elite.webp",
+        "descricao": "Um capitão de polícia do Rio de Janeiro está esgotado e prestes a se aposentar, mas precisa encontrar um sucessor para liderar uma perigosa missão.",
+        "generos": [
+            "Brasileiro",
+            "Filmes sobre questões Sociais",
+            "Filmes baseados em livros"
+        ],
+        "elenco": [
+            "Wagner Moura",
+            "André Ramiro",
+            "Caio Junqueira",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Adrenalina pura",
+            "Violentos"
+        ]
+    },
+    {
+        "titulo": "Vikings",
+        "tipo": "serie",
+        "capa": "https://i.ibb.co/4PLR4n2/capa-Vikings.webp",
+        "logo": "https://i.ibb.co/sCS2sZL/incone-Vikings.webp",
+        "thumb": "https://i.ibb.co/B2p0zrP/thumb-Vikings.jpg",
+        "descricao": "Vikings segue a vida de Ragnar Lothbrok (Travis Fimmel), o maior guerreiro da sua era. Lider de seu bando, com seus irmãos e sua família, ele ascende ao poder e torna-se Rei da tribo dos vikings. Além de guerreiro implacável, Ragnar segue as tradições nórdicas e é devoto dos deuses. As lendas contam que ele descende diretamente de Odin, o deus da guerra. ",
+        "generos": [
+            "Canadense",
+            "Politica Nordica",
+            "Obras de época"
+        ],
+        "elenco": [
+            "Travis Fimmel",
+            "Katheryn Winnick",
+            "Clive Standen",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Violentos",
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "Bad Boys",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/y4F57Fy/capa-bad-boys.webp",
+        "logo": "https://i.ibb.co/JnJZnhY/logo-bad-boys.webp",
+        "thumb": "https://i.ibb.co/Fg9h2bT/thumb-bad-boys.webp",
+        "descricao": "Chegou a vez de Marcus desfrutar de sua merecida aposentadoria da polícia. Antes, ele só precisa livrar seu parceiro Mike de um perigoso cartel.",
+        "generos": [
+            "Ação e Aventura",
+            "Comédia",
+            "Policiais"
+        ],
+        "elenco": [
+            "Will Smith",
+            "Martin Lawrence",
+            "Vanessa Hudgens",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "Peaky Blinders",
+        "tipo": "serie",
+        "capa": "https://i.ibb.co/hCT3mQ7/capa-peaky-blinders.webp",
+        "logo": "https://i.ibb.co/T8Rt3rh/logo-peaky-blinders.webp",
+        "thumb": "https://i.ibb.co/XLZYy8b/thumb-peaky-blinders.jpg",
+        "descricao": "O ambicioso gângster Thomas Shelby percebe que um carregamento de armas desaparecido pode ser sua grande chance de subir na vida.",
+        "generos": [
+            "Séries polilciais",
+            "Britânico",
+            "Obras de época"
+        ],
+        "elenco": [
+            "Cillian Murphy",
+            "Sam Neill",
+            "Helen McCrory",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Violentos"
+        ]
+    },
+    {
+        "titulo": "Corajosos",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/xCqPMNP/capa-Corajosos.webp",
+        "logo": "https://i.ibb.co/C54dTYv/logo-Corajosos.webp",
+        "thumb": "https://i.ibb.co/zHsvY1s/thumb-Corajosos.webp",
+        "descricao": "Neste drama social, um grupo de policiais corajosos tenta lidar com uma tragédia em suas vidas pessoais.",
+        "generos": [
+            "Filmes para a família",
+            "Dramas",
+            "Policiais"
+        ],
+        "elenco": [
+            "Alex Kendrick",
+            "Ken Bevel",
+            "Ben Davies",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Inspiradores",
+            "Emoções contraditórias"
+        ]
+    },
+    {
+        "titulo": "The 100",
+        "tipo": "serie",
+        "capa": "https://i.ibb.co/qWH2MyV/capa-the-100.webp",
+        "logo": "https://i.ibb.co/0CCTGt5/logo-the-100.webp",
+        "thumb": "https://i.ibb.co/KVfS9NK/thumb-the-100.webp",
+        "descricao": "Quase 100 anos após um apocalipse nuclear devastar a Terra, 100 sobreviventes de uma estação espacial voltam para avaliar as condições do planeta.",
+        "generos": [
+            "Séries de Ficção cientifica",
+            "Programas sobre politica",
+            "Séries baseadas em livros"
+        ],
+        "elenco": [
+            "Eliza Taylor",
+            "Paige Turco",
+            "Bob Morley",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Violentos"
+        ]
+    },
+    {
+        "titulo": "Deus não Está Morto",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/GtJ1x9m/capa-Deus-nao-esta-morto.webp",
+        "logo": "https://i.ibb.co/prtzTcB/logo-deus-n-o-esta-morto.webp",
+        "thumb": "https://i.ibb.co/R6bYGyN/thumb-deus-nao-esta-morto.webp",
+        "descricao": "Um estudante religioso entra em conflito com um professor ateu que só aprova os alunos que professarem que Deus morreu.",
+        "generos": [
+            "Dramas",
+            "Fé e espiritualidade"
+        ],
+        "elenco": [
+            "Kevin Sorbo",
+            "Shane Harper",
+            "David A.R. White",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Inspiradores"
+        ]
+    },
+    {
+        "titulo": "Wandinha",
+        "tipo": "serie",
+        "capa": "https://i.ibb.co/rwVCgLX/capa-wandinha.webp",
+        "logo": "https://i.ibb.co/cwpDQ8b/logo-wandinha.webp",
+        "thumb": "https://i.ibb.co/B4fHZyR/thumb-wandinha.jpg",
+        "descricao": "Wandinha é expulsa do colégio por causa de uma brincadeirinha cruel. Por isso, seus pais decidem mandá-la para a Escola Nunca Mais, o internato onde eles se apaixonaram.",
+        "generos": [
+            "Séries de Mistério",
+            "Séries policiais",
+            "Séries de fantasia"
+        ],
+        "elenco": [
+            "Jenna Ortega",
+            "Gwendoli Christie",
+            "Riki Lindhome",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Humor seco"
+        ]
+    },
+    {
+        "titulo": "Jurassic Word",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/3C0ntPJ/capa-jurassic-word.webp",
+        "logo": "https://i.ibb.co/YyTNwYH/logo-jurassic-word.webp",
+        "thumb": "https://i.ibb.co/2tXCYHz/thumb-Jurassic-word.webp",
+        "descricao": "Uma atração de arrepiar é a nova aposta dos donos do parque dos dinossauros. Mas uma criatura gigantesca consegue escapar e espalha o terror pela ilha.",
+        "generos": [
+            "Filmes de Ficção Cientifica",
+            "Ação e Aventura"
+        ],
+        "elenco": [
+            "Chris Pratt",
+            "Bryce Dallas Howard",
+            "Vicent D'Onofrio",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Adrenalina pura",
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "The last Kingdom",
+        "tipo": "serie",
+        "capa": "https://i.ibb.co/t80B6YQ/capa-the-last-kingdom.webp",
+        "logo": "https://i.ibb.co/bv5N0xF/logo-the-last-Kingdowm.webp",
+        "thumb": "https://i.ibb.co/TcCPSmH/thumb-the-last-Kingdom.jpg",
+        "descricao": "Enquanto Alfredo, o Grande, defende seu reino de invasões nórdicas, Uhtred - um saxão criado por vikings - planeja reivindicar o que é seu por direito.",
+        "generos": [
+            "Britânico",
+            "Séries baseadas em livros",
+            "Obras de época"
+        ],
+        "elenco": [
+            "Alexander Dreymon",
+            "Emily Cox",
+            "David Dawson",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Violentos",
+            "Realistas",
+            "Sombrios"
+        ]
+    },
+    {
+        "titulo": "Dracula",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/xL0SxCg/capa-Dracula.webp",
+        "logo": "https://i.ibb.co/LtvqmYm/logo-Dracula.webp",
+        "thumb": "https://i.ibb.co/TqcHP39/thumb-Dracula.webp",
+        "descricao": "Nesta nova versão das origens de Drácula, um guerreiro medieval precisa se transformar em vampiro para expulsar os invasores otomanos de seu país.",
+        "generos": [
+            "Filmes baseados em livros",
+            "Ação e aventura",
+            "Épicos"
+        ],
+        "elenco": [
+            "Luke Evans",
+            "Dominic Cooper",
+            "Sarah Gadon",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "Arrow",
+        "tipo": "serie",
+        "capa": "https://i.ibb.co/s16cvzZ/capa-Arrow.webp",
+        "logo": "https://i.ibb.co/NxVwgdk/logo-Arrow.webp",
+        "thumb": "https://i.ibb.co/0VyTWR9/thumb-Arrow.webp",
+        "descricao": "Inspirada nos quadrinhos do Arqueiro Verde, esta série acompanha as aventuras do playboy que se torna super-herói e luta contra vilões armado apenas com arco e flechas.",
+        "generos": [
+            "Séries policiais",
+            "Séries baseadas em HQ",
+            "Séries dos EUA"
+        ],
+        "elenco": [
+            "Stephen Amell",
+            "Katie Cassidy",
+            "David Ramsey",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "Karate Kid",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/sVZ5bVS/capa-Karate-Kid.webp",
+        "logo": "https://i.ibb.co/GWn5wv4/logo-karate-kid.webp",
+        "thumb": "https://i.ibb.co/Sdpwzs9/thumb-karate-kid.webp",
+        "descricao": "Na China, Dre precisa se defender de um bully na escola e procura um mestre em artes marciais. Refilmagem do clássico de 1984.",
+        "generos": [
+            "Filmes de artes marciais",
+            "Filmes para a familia"
+        ],
+        "elenco": [
+            "Jaden Smith",
+            "Jackie Chan",
+            "Taraji P. Henson",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Insoiradores",
+            "alto-astral",
+            "Emplolgantes"
+        ]
+    },
+    {
+        "titulo": "The Flash",
+        "tipo": "serie",
+        "capa": "https://i.ibb.co/sVZ5bVS/capa-Karate-Kid.webp",
+        "logo": "https://i.ibb.co/GWn5wv4/logo-karate-kid.webp",
+        "thumb": "https://i.ibb.co/Sdpwzs9/thumb-karate-kid.webp",
+        "descricao": "Um inimigo chato atrapalha o jantar de Dia dos Namorados de Barry e Iris. Nevasca resolve ajudar Allegra.",
+        "generos": [
+            "Séries de ficção cientifica",
+            "Séries baseadas em HQ",
+            "Séries dos EUA"
+        ],
+        "elenco": [
+            "Grant Gustin",
+            "Candice Patton",
+            "Danielle Panabaker",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Adrenalina pura"
+        ]
+    },
+    {
+        "titulo": "Gato de Botas",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/BKz1b8w/capa-gato-de-botas.webp",
+        "logo": "https://i.ibb.co/t3Xx3PN/logo-gato-de-botas.webp",
+        "thumb": "https://i.ibb.co/D70RvSm/thumb-gato-de-botas.webp",
+        "descricao": "Dublado por Antonio Banderas, o destemido felino parte em uma aventura para capturar uma valiosa gansa que bota ovos de ouro.",
+        "generos": [
+            "Filmes para a Família",
+            "Filmes para toda a familia",
+            "Comédia"
+        ],
+        "elenco": [
+            "Antonio Banderas",
+            "Salma Hayek",
+            "zach Galifianakis",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Espirituosos",
+            "Besteirol"
+        ]
+    },
+    {
+        "titulo": "Super Gril",
+        "tipo": "serie",
+        "capa": "https://i.ibb.co/zmdm09T/capa-super-Gril.webp",
+        "logo": "https://i.ibb.co/YjXx49X/logo-Super-Gril.webp",
+        "thumb": "https://i.ibb.co/LNfkvvP/thumb-Super-Gril.webp",
+        "descricao": "Enquanto Kara Zor-El se adapta à vida em National City e ao trabalho para a magnata da mídia Cat Grant, ela não consegue se distanciar dos seus superpoderes kryptonianos.",
+        "generos": [
+            "Séries de Ficção cientifica",
+            "Séries baseadas em HQ",
+            "Séries dos EUA"
+        ],
+        "elenco": [
+            "Melissa Benoist",
+            "Mehcad brooks",
+            "chyler leigh",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Emplolgantes"
+        ]
+    },
+    {
+        "titulo": "WarCraft",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/fSFqRpx/capa-Warcraft.webp",
+        "logo": "https://i.ibb.co/gRRqwyp/logo-Warcroft.webp",
+        "thumb": "https://i.ibb.co/0QcdXPM/thumb-Warcraft.webp",
+        "descricao": "Humanos e orcs se enfrentam quando os guerreiros de Draenor chegam a Azeroth através de um portal. Viaje nesta história fantástica baseada num jogo de videogame.",
+        "generos": [
+            "Filmes de Ficção",
+            "Ação e aventura"
+        ],
+        "elenco": [
+            "Travis Fimmel",
+            "Paula Patton",
+            "Ben Foster",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Violentos",
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "The Witcher",
+        "tipo": "serie",
+        "capa": "https://i.ibb.co/HpX4VgT/capa-the-Witcher.webp",
+        "logo": "https://i.ibb.co/GncjQhh/logo-The-Witcher.webp",
+        "thumb": "https://i.ibb.co/5kftVDz/thumb-The-Witcher.jpg",
+        "descricao": "Das origens mágicas de Yennefer ao primeiro encontro de Geralt com Ciri, confira os eventos do Continente em ordem cronológica neste resumo da temporada 1.",
+        "generos": [
+            "Ação",
+            "Fantasia",
+            "Terror"
+        ],
+        "elenco": [
+            "Henry Cavill",
+            "Anya Chalotra",
+            "Freya Allan",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "A Múmia",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/tb4gL5z/Capa-A-mumia.webp",
+        "logo": "https://i.ibb.co/89dmzkG/Logo-A-mumia.webp",
+        "thumb": "https://i.ibb.co/h8HhBch/Thumb-A-mumia.webp",
+        "descricao": "Um caçador de tesouros desperta uma princesa egípcia que espera há séculos para se vingar de um mundo que a prejudicou.",
+        "generos": [
+            "Ação e aventura",
+            "Filmes de monstros"
+        ],
+        "elenco": [
+            "Tom Cruise",
+            "Annabelle Wallis",
+            "Sofia Boutella",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Suspense no ar",
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "La Casa de Papel",
+        "tipo": "serie",
+        "capa": "https://i.ibb.co/zNQVQg8/capa-la-casa-de-papel.webp",
+        "logo": "https://i.ibb.co/ZhRQRBH/logo-la-casa-de-papel.webp",
+        "thumb": "https://i.ibb.co/cJzMv4K/thumb-la-casa-de-papel.jpg",
+        "descricao": "O Professor recruta Martín para colocar em prática o plano do irmão dele de invadir o Banco da Espanha. O primeiro passo? Criar o caos.",
+        "generos": [
+            "Séries policiais",
+            "Espanhol",
+            "Suspense para TV"
+        ],
+        "elenco": [
+            "Úrsula Coberó",
+            "Álvaro Morte",
+            "Itziar Ituño",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Suspense no ar",
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "deuses Do Egito",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/LJjpxbg/thumb-deuses-do-egito.webp",
+        "logo": "deuses do egito",
+        "thumb": "https://i.ibb.co/LJjpxbg/thumb-deuses-do-egito.webp",
+        "descricao": "O deus Hórus perde o controle do Egito para Set, o deus das Trevas, e precisa se unir a um ladrão mortal para restabelecer a ordem e salvar a humanidade.",
+        "generos": [
+            "Mitologia Egipsia",
+            "Ação",
+            "Aventura"
+        ],
+        "elenco": [
+            "Gerard Butler",
+            "Nikolaj Coster",
+            "Chadwick Boseman",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Suspense no ar",
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "As Branquelas",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/djNVc31/capa-As-branquelas.webp",
+        "logo": "https://i.ibb.co/wy64R5C/Logo-As-branquelas.webp",
+        "thumb": "https://i.ibb.co/rQ0NfkF/thumb-As-branquelas.webp",
+        "descricao": "O que acontece quando dois agentes do FBI se disfarçam de princesas ricas para se infiltrar na alta sociedade? Situações extremamente engraçadas e diversão total.",
+        "generos": [
+            "Comédia",
+            "policial"
+        ],
+        "elenco": [
+            "Shawn Wayans",
+            "Marlon Wayans",
+            "Jaime King",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Apimentados"
+        ]
+    },
+    {
+        "titulo": "Rango",
+        "tipo": "filme",
+        "capa": "https://i.ibb.co/m4VTRZV/Capa-Rango.webp",
+        "logo": "https://i.ibb.co/k1cDWLn/logo-Rango.webp",
+        "thumb": "https://i.ibb.co/Q9MFWns/thumb-Rango.webp",
+        "descricao": "Depois de ficar perdido no deserto, o camaleão Rango dá uma de durão e acaba como xerife de uma cidadezinha corrupta.",
+        "generos": [
+            "Filmes para toda Familia",
+            "Faroestes",
+            "inspirador"
+        ],
+        "elenco": [
+            "Johnny Depp",
+            "Isla Fisher",
+            "Abigail Breslin",
+            "mais"
+        ],
+        "cenas_momentos":[
+            "Espirituosos",
+            "Peculiares",
+            "irreverentes"
+        ]
+    }
+
+]
