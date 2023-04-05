@@ -30,3 +30,11 @@ node.js, mongoDB, mongoose, axios, React, morgan, underscore
 - [@Lucas Santos](https://github.com/Lukas656)
 
 ## Screenshots
+![2023-04-05 (4)](https://user-images.githubusercontent.com/72577273/230173926-433d6214-abe2-4f7c-a806-c59d892ec072.png)
+
+![2023-04-05 (5)](https://user-images.githubusercontent.com/72577273/230173953-a86fd37d-bdbd-4783-af07-7238dab025fb.png)
+
+![2023-04-05 (6)](https://user-images.githubusercontent.com/72577273/230173975-3d87f362-6f6c-4591-aea2-b2c6d2f1c6c4.png)
+
+
+
